@@ -31,6 +31,7 @@ public class text extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		request.setCharacterEncoding("UTF-8");
 		response.getWriter().print("帆哥是大好人");
+		response.getWriter().print("帆哥是大好人");
 	}
 
 	/**
